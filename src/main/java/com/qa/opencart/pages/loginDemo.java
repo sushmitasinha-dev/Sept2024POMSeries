@@ -6,7 +6,12 @@ public class loginDemo {
 		// TODO Auto-generated method stub
 		int i = 10;
 		System.out.println(i);
-
+		loginDemo.getLoginMessage();
+		
+	}
+	
+	public static  void getLoginMessage() {
+		System.out.println("this is login page");
 	}
 
 }
