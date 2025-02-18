@@ -28,7 +28,7 @@ public class LoginPage {
     private By loginBtn = By.xpath("//input[@class = 'btn btn-primary']");
     private By forgotPwdLink = By.linkText("Forgotten Password");
     
-    @Step("getLoginPageTitle")
+    @Step("get Login Page Title")
     public String getLoginPageTitle() {
     	String title = eleUtil.waitForTitleIs(AppsConstants.LOGIN_PAGE_TITLE, AppsConstants.DEFAULT_TIME_OUT);
     	System.out.println("The Title of the Page : " + title );
